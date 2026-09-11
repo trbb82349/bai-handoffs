@@ -15,7 +15,7 @@ bai-shared/
 
 ## 사용 방법 (전원 공통)
 
-`git clone`이나 `git push` 명령어를 직접 몰라도 됩니다. 자기 AI 코딩 에이전트(Claude Code·Codex·Cursor 등 무엇이든)에게 아래처럼 한 줄만 시키세요. 이 저장소의 [AGENTS.md](AGENTS.md)에 자세한 절차가 적혀 있어서, 그 파일을 읽을 줄 아는 에이전트라면 알아서 따라합니다.
+자기 AI 코딩 에이전트(Claude Code·Codex·Cursor 등 무엇이든)에게 아래처럼 한 줄만 시키세요. 이 저장소의 [AGENTS.md](AGENTS.md)에 자세한 절차가 적혀 있어서, 그 파일을 읽을 줄 아는 에이전트라면 알아서 따라합니다.
 
 **처음 받을 때나, 나중에 다시 동기화할 때나 똑같이:**
 > 이 저장소를 clone 받고 AGENTS.md 안내를 따라서, handoffs/ 안의 문서들을 요약해서 보여줘: `https://github.com/trbb82349/bai-shared.git`
