@@ -17,8 +17,10 @@ bai-shared/
 
 `git clone`이나 `git push` 명령어를 직접 몰라도 됩니다. 자기 AI 코딩 에이전트(Claude Code·Codex·Cursor 등 무엇이든)에게 아래처럼 한 줄만 시키세요. 이 저장소의 [AGENTS.md](AGENTS.md)에 자세한 절차가 적혀 있어서, 그 파일을 읽을 줄 아는 에이전트라면 알아서 따라합니다.
 
-**처음 받을 때 (팀원 작업 확인):**
+**처음 받을 때나, 나중에 다시 동기화할 때나 똑같이:**
 > 이 저장소를 clone 받고 AGENTS.md 안내를 따라서, handoffs/ 안의 문서들을 요약해서 보여줘: `https://github.com/trbb82349/bai-shared.git`
+
+이미 한 번 받아본 적 있으면, AI가 알아서 **지난번 이후 새로 올라온 핸드오프 문서만** 찾아서 요약해줍니다 (이미 봤던 문서를 매번 다시 읽지 않음).
 
 **내 작업을 공유할 때:**
 > bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 projects/ 아래에 올리고 핸드오프 문서도 같이 써서 push해줘.
