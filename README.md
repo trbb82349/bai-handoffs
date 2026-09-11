@@ -40,5 +40,5 @@ bai-shared/
 ## 예시
 
 - [handoffs/template.md](handoffs/template.md) — 빈 템플릿
-- [handoffs/예시-careerlens-mvp-핸드오프.md](handoffs/예시-careerlens-mvp-핸드오프.md) — 실제 프로젝트로 채운 작성 예시
+- [handoffs/2026-09-02-trbb82349-핸드오프.md](handoffs/2026-09-02-trbb82349-핸드오프.md) — 실제 프로젝트로 채운 작성 예시 (파일명 규칙을 따른 예시이기도 함)
 - [projects/careerlens-mvp/](projects/careerlens-mvp/) — 그 예시가 가리키는 실제 프로젝트
