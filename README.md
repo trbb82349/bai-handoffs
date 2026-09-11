@@ -6,12 +6,17 @@ BAI 소모임원들이 각자 AI 에이전트(Claude Code/Codex 등)로 만든 *
 
 ```
 bai-shared/
-├── handoffs/     — 세션이 끝날 때 남기는 짧은 요약 문서
+├── handoffs/                  — 세션이 끝날 때 남기는 짧은 요약 문서
 │   ├── template.md
-│   └── (이름)-핸드오프.md
-└── projects/     — 실제 프로젝트 코드·데이터
-    └── (프로젝트 이름)/
+│   └── YYYY-MM-DD-이름-핸드오프.md
+└── projects/                  — 실제 프로젝트 코드·데이터, 사람(GitHub 아이디)별로 구분
+    ├── trbb82349/
+    │   └── careerlens-mvp/
+    └── (다른 팀원 GitHub 아이디)/
+        └── (그 사람의 프로젝트)/
 ```
+
+프로젝트 폴더는 **사람 기준**으로 나뉩니다 — 팀원이 늘어나도 "누가 만든 건지" 한눈에 보이도록 하기 위해서입니다.
 
 ## 사용 방법 (전원 공통)
 
@@ -23,9 +28,9 @@ bai-shared/
 이미 한 번 받아본 적 있으면, AI가 알아서 **지난번 이후 새로 올라온 핸드오프 문서와 업데이트된 프로젝트만** 찾아서 알려줍니다 (이미 봤던 내용을 매번 다시 읽거나 설명하지 않음).
 
 **내 작업을 공유할 때:**
-> bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 projects/ 아래에 올리고 핸드오프 문서도 같이 써서 push해줘.
+> bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 push해줘. 내 GitHub 아이디는 (여기에 아이디)야.
 
-명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → `projects/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit/push).
+명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit/push).
 
 ## 원칙
 
@@ -41,4 +46,4 @@ bai-shared/
 
 - [handoffs/template.md](handoffs/template.md) — 빈 템플릿
 - [handoffs/2026-09-02-trbb82349-핸드오프.md](handoffs/2026-09-02-trbb82349-핸드오프.md) — 실제 프로젝트로 채운 작성 예시 (파일명 규칙을 따른 예시이기도 함)
-- [projects/careerlens-mvp/](projects/careerlens-mvp/) — 그 예시가 가리키는 실제 프로젝트
+- [projects/trbb82349/careerlens-mvp/](projects/trbb82349/careerlens-mvp/) — 그 예시가 가리키는 실제 프로젝트
