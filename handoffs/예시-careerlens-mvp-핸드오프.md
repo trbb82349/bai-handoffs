@@ -19,11 +19,11 @@
 
 ## 결과물 위치
 
-- `10-projects/careerlens-mvp/src/careerlens-mvp-4.html` — 현재 버전 (로컬 서버로 열어야 함: `python -m http.server 8000`, `file://`로 직접 열면 모델 로딩 안 됨)
-- `10-projects/careerlens-mvp/src/careerlens-mvp.html` ~ `careerlens-mvp-3.html` — 이전 버전 (비교용으로 보존, 건드리지 않음)
-- `10-projects/careerlens-mvp/output/업무카드-도메인버전-2026-09-02.csv` — 현재 카드 데이터 77개
-- `10-projects/careerlens-mvp/notes/도메인-분류-기준-2026-09-02.md` — 도메인 9개 분류 기준·회사 매핑표
-- (원본 코드/데이터는 개인 로컬 워크스페이스에 있으며, 이 문서는 요약본입니다)
+- [projects/careerlens-mvp/src/careerlens-mvp-4.html](../projects/careerlens-mvp/src/careerlens-mvp-4.html) — 현재 버전 (로컬 서버로 열어야 함: `python -m http.server 8000`, `file://`로 직접 열면 모델 로딩 안 됨)
+- [projects/careerlens-mvp/src/](../projects/careerlens-mvp/src/) 안의 `careerlens-mvp.html` ~ `careerlens-mvp-3.html` — 이전 버전 (비교용으로 보존, 건드리지 않음)
+- [projects/careerlens-mvp/output/업무카드-도메인버전-2026-09-02.csv](../projects/careerlens-mvp/output/업무카드-도메인버전-2026-09-02.csv) — 현재 카드 데이터 77개
+- [projects/careerlens-mvp/notes/도메인-분류-기준-2026-09-02.md](../projects/careerlens-mvp/notes/도메인-분류-기준-2026-09-02.md) — 도메인 9개 분류 기준·회사 매핑표
+- 원본 작업 폴더는 이 저장소의 [projects/careerlens-mvp/](../projects/careerlens-mvp/) 그대로이며, 이 문서는 그 요약본입니다
 
 ## 막힌 것 / 미해결 질문
 
