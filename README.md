@@ -22,8 +22,8 @@ bai-shared/
 
 자기 AI 코딩 에이전트(Claude Code·Codex·Cursor 등 무엇이든)에게 아래처럼 한 줄만 시키세요. 이 저장소의 [AGENTS.md](AGENTS.md)에 자세한 절차가 적혀 있어서, 그 파일을 읽을 줄 아는 에이전트라면 알아서 따라합니다.
 
-> [!TIP]
-> **처음 받을 때나, 나중에 다시 동기화할 때나 똑같이** (오른쪽 위 복사 아이콘 클릭)
+![공유받기](https://img.shields.io/badge/%EA%B3%B5%EC%9C%A0%EB%B0%9B%EA%B8%B0-2ea44f?style=for-the-badge)
+> 처음 받을 때나, 나중에 다시 동기화할 때나 똑같이 (오른쪽 위 복사 아이콘 클릭)
 >
 > ```text
 > 이 저장소를 clone 받고 AGENTS.md 안내를 따라서, handoffs/ 안의 문서들을 요약해서 보여줘: https://github.com/trbb82349/bai-shared.git
@@ -31,8 +31,8 @@ bai-shared/
 
 이미 한 번 받아본 적 있으면, AI가 알아서 **지난번 이후 새로 올라온 핸드오프 문서와 업데이트된 프로젝트만** 찾아서 알려줍니다 (이미 봤던 내용을 매번 다시 읽거나 설명하지 않음).
 
-> [!TIP]
-> **내 작업을 공유할 때** (오른쪽 위 복사 아이콘 클릭)
+![공유하기](https://img.shields.io/badge/%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-2ea44f?style=for-the-badge)
+> 내 작업을 공유할 때 (오른쪽 위 복사 아이콘 클릭)
 >
 > ```text
 > bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 push해줘. 내 GitHub 아이디는 (여기에 아이디)야.
