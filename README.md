@@ -24,7 +24,7 @@ bai-shared/
 
 <img src="https://img.shields.io/badge/%ED%8C%80%EC%9B%90%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%20%EB%B0%9B%EA%B8%B0-yellow?style=for-the-badge" alt="팀원 작업 공유 받기" height="34">
 
-> 처음 받을 때나, 나중에 다시 동기화할 때나 똑같이 (오른쪽 위 복사 아이콘 클릭)
+> 처음 받을 때나, 나중에 다시 동기화할 때나 똑같이 (오른쪽 아래 복사 아이콘 클릭)
 >
 > ```text
 > 이 저장소를 clone 받고 AGENTS.md 안내를 따라서, handoffs/ 안의 문서들을 요약해서 보여줘: https://github.com/trbb82349/bai-shared.git
@@ -34,7 +34,7 @@ bai-shared/
 
 <img src="https://img.shields.io/badge/%ED%8A%B9%EC%A0%95%20%ED%8C%80%EC%9B%90%20%EC%9E%91%EC%97%85%EB%A7%8C%20%EB%B0%9B%EA%B8%B0-yellow?style=for-the-badge" alt="특정 팀원 작업만 받기" height="34">
 
-> 전체 말고 특정 팀원 작업만 받고 싶을 때 (오른쪽 위 복사 아이콘 클릭)
+> 전체 말고 특정 팀원 작업만 받고 싶을 때 (오른쪽 아래 복사 아이콘 클릭)
 >
 > ```text
 > bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 작업을 받고 싶은 사람은 (여기에 팀원 이름)야.
@@ -42,7 +42,7 @@ bai-shared/
 
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0-blue?style=for-the-badge" alt="내 브랜치 연결하기" height="34">
 
-> 파일을 올리기 전에, 작업을 시작하면서 미리 내 GitHub 아이디 브랜치로 연결해두고 싶을 때 (오른쪽 위 복사 아이콘 클릭)
+> 파일을 올리기 전에, 작업을 시작하면서 미리 내 GitHub 아이디 브랜치로 연결해두고 싶을 때 (오른쪽 아래 복사 아이콘 클릭)
 >
 > ```text
 > bai-shared 저장소를 clone 받고, 내 이름에 해당하는 GitHub 아이디 브랜치로 전환(없으면 새로 만들어)해줘. 나는 (여기에 이름)이야.
@@ -52,7 +52,7 @@ bai-shared/
 
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
 
-> 내 작업을 공유할 때 (오른쪽 위 복사 아이콘 클릭)
+> 내 작업을 main에 공유할 때 (오른쪽 아래 복사 아이콘 클릭)
 >
 > ```text
 > bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 이름에 해당하는 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 내 브랜치에 push하고 main으로 PR을 열어줘. 나는 (여기에 이름)이야.
