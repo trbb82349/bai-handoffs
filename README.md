@@ -42,6 +42,8 @@ bai-shared/
 
 명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit/push).
 
+**특정 팀원 작업만 받고 싶을 때**: 전체를 다 받지 않고 그 사람 폴더만 받을 수도 있습니다. AI에게 "OO 작업만 받고 싶어"라고 하면 [AGENTS.md](AGENTS.md)의 sparse-checkout 절차대로 그 사람 폴더만 골라 받아줍니다.
+
 ## 원칙
 
 - 핸드오프 문서에 원본 대화를 통째로 붙여넣지 않습니다. 노이즈가 많아서 상대방 AI가 핵심을 못 고릅니다. 반드시 템플릿 항목별로 걸러서 요약합니다.
