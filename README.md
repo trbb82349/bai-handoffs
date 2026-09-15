@@ -45,10 +45,12 @@ bai-shared/
 > 내 작업을 공유할 때 (오른쪽 위 복사 아이콘 클릭)
 >
 > ```text
-> bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 이름에 해당하는 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 push해줘. 나는 (여기에 이름)이야.
+> bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 이름에 해당하는 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 내 브랜치에 push하고 main으로 PR을 열어줘. 나는 (여기에 이름)이야.
 > ```
 
-명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit/push).
+명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → 본인 GitHub 아이디 브랜치로 전환 → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit → 본인 브랜치에 push → main으로 PR).
+
+**왜 브랜치를 쓰나요?** `main`에 바로 push하지 않고 본인 GitHub 아이디 브랜치에서 작업한 뒤 PR을 열면, merge하기 전에 변경사항을 한눈에 확인할 수 있고 다른 사람 작업과 우연히 충돌할 일이 줄어듭니다. PR을 언제 merge할지는 본인이 정하면 됩니다.
 
 ## 받은 내용은 어디에 저장되나요
 
