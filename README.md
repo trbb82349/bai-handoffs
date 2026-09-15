@@ -42,7 +42,7 @@ bai-shared/
 
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
 
-> 내 작업을 main에 공유할 때 (오른쪽 아래 복사 아이콘 클릭)
+> 내 작업을 main에 PR로 올릴 때 (merge는 이후 직접 결정) (오른쪽 아래 복사 아이콘 클릭)
 >
 > ```text
 > bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 이름에 해당하는 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 내 브랜치에 push하고 main으로 PR을 열어줘. 나는 (여기에 이름)이야.
@@ -50,7 +50,7 @@ bai-shared/
 
 명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → 본인 GitHub 아이디 브랜치로 전환 → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit → 본인 브랜치에 push → main으로 PR).
 
-**왜 브랜치를 쓰나요?** `main`에 바로 push하지 않고 본인 GitHub 아이디 브랜치에서 작업한 뒤 PR을 열면, merge하기 전에 변경사항을 한눈에 확인할 수 있고 다른 사람 작업과 우연히 충돌할 일이 줄어듭니다. PR을 언제 merge할지는 본인이 정하면 됩니다.
+**왜 브랜치를 쓰나요?** `main`에 바로 push하지 않고 본인 GitHub 아이디 브랜치에서 작업한 뒤 PR을 열면, merge하기 전에 변경사항을 한눈에 확인할 수 있고 다른 사람 작업과 우연히 충돌할 일이 줄어듭니다. **PR을 언제 merge할지는 본인이 정하면 됩니다** — "내 작업 공유하기"는 PR을 여는 것까지만 하고, merge는 자동으로 실행되지 않습니다.
 
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0-blue?style=for-the-badge" alt="내 브랜치 연결하기" height="34">
 
