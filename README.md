@@ -40,16 +40,6 @@ bai-shared/
 > bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 작업을 받고 싶은 사람은 (여기에 팀원 이름)야.
 > ```
 
-<img src="https://img.shields.io/badge/%EB%82%B4%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0-blue?style=for-the-badge" alt="내 브랜치 연결하기" height="34">
-
-> 파일을 올리기 전에, 작업을 시작하면서 미리 내 GitHub 아이디 브랜치로 연결해두고 싶을 때 (오른쪽 아래 복사 아이콘 클릭)
->
-> ```text
-> bai-shared 저장소를 clone 받고, 내 이름에 해당하는 GitHub 아이디 브랜치로 전환(없으면 새로 만들어)해줘. 나는 (여기에 이름)이야.
-> ```
->
-> 이 단계는 선택 사항입니다 — 안 해도 아래 "내 작업 공유하기"를 실행하면 알아서 본인 브랜치로 전환됩니다.
-
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
 
 > 내 작업을 main에 공유할 때 (오른쪽 아래 복사 아이콘 클릭)
@@ -61,6 +51,16 @@ bai-shared/
 명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → 본인 GitHub 아이디 브랜치로 전환 → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit → 본인 브랜치에 push → main으로 PR).
 
 **왜 브랜치를 쓰나요?** `main`에 바로 push하지 않고 본인 GitHub 아이디 브랜치에서 작업한 뒤 PR을 열면, merge하기 전에 변경사항을 한눈에 확인할 수 있고 다른 사람 작업과 우연히 충돌할 일이 줄어듭니다. PR을 언제 merge할지는 본인이 정하면 됩니다.
+
+<img src="https://img.shields.io/badge/%EB%82%B4%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0-blue?style=for-the-badge" alt="내 브랜치 연결하기" height="34">
+
+> 파일을 올리기 전에, 작업을 시작하면서 미리 내 GitHub 아이디 브랜치로 연결해두고 싶을 때 (오른쪽 아래 복사 아이콘 클릭)
+>
+> ```text
+> bai-shared 저장소를 clone 받고, 내 이름에 해당하는 GitHub 아이디 브랜치로 전환(없으면 새로 만들어)해줘. 나는 (여기에 이름)이야.
+> ```
+>
+> 이 단계는 선택 사항입니다 — 안 해도 위 "내 작업 공유하기"를 실행하면 알아서 본인 브랜치로 전환됩니다.
 
 ## 받은 내용은 어디에 저장되나요
 
