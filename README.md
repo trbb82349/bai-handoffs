@@ -16,7 +16,7 @@ bai-shared/
         └── (그 사람의 프로젝트)/
 ```
 
-프로젝트 폴더는 **사람 기준**으로 나뉩니다 — 팀원이 늘어나도 "누가 만든 건지" 한눈에 보이도록 하기 위해서입니다.
+프로젝트 폴더는 **사람 기준**으로 나뉩니다 — 팀원이 늘어나도 "누가 만든 건지" 한눈에 보이도록 하기 위해서입니다. 이름과 GitHub 아이디를 연결한 표는 [MEMBERS.md](MEMBERS.md)에 있어서, 아래 명령어에서 GitHub 아이디 대신 이름만 말해도 됩니다.
 
 ## 사용 방법 (전원 공통)
 
@@ -37,7 +37,7 @@ bai-shared/
 > 전체 말고 특정 팀원 작업만 받고 싶을 때 (오른쪽 위 복사 아이콘 클릭)
 >
 > ```text
-> bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 받고 싶은 사람의 GitHub 아이디는 (여기에 아이디)야.
+> bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 작업을 받고 싶은 사람은 (여기에 팀원 이름)야.
 > ```
 
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
@@ -45,7 +45,7 @@ bai-shared/
 > 내 작업을 공유할 때 (오른쪽 위 복사 아이콘 클릭)
 >
 > ```text
-> bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 push해줘. 내 GitHub 아이디는 (여기에 아이디)야.
+> bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 이름에 해당하는 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 push해줘. 나는 (여기에 이름)이야.
 > ```
 
 명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit/push).
@@ -64,7 +64,7 @@ bai-shared/
 
 ## 참여하기
 
-쓰기 권한(협업자 등록)이 필요합니다. GitHub 아이디를 저장소 관리자(trbb82349)에게 알려주세요.
+쓰기 권한(협업자 등록)이 필요합니다. GitHub 아이디를 저장소 관리자(trbb82349)에게 알려주세요. 처음 "내 작업 공유하기"를 할 때 이름을 알려주면 [MEMBERS.md](MEMBERS.md)에 자동으로 등록됩니다.
 
 ## 예시
 
