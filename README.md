@@ -30,6 +30,8 @@ bai-shared/
 > 이 저장소를 clone 받고 AGENTS.md 안내를 따라서, handoffs/ 안의 문서들을 요약해서 보여줘: https://github.com/trbb82349/bai-shared.git
 > ```
 
+직접 명령어: `git clone https://github.com/trbb82349/bai-shared.git` (처음) / `git pull` (이미 받은 경우)
+
 이미 한 번 받아본 적 있으면, AI가 알아서 **지난번 이후 새로 올라온 핸드오프 문서와 업데이트된 프로젝트만** 찾아서 알려줍니다 (이미 봤던 내용을 매번 다시 읽거나 설명하지 않음).
 
 <img src="https://img.shields.io/badge/%ED%8A%B9%EC%A0%95%20%ED%8C%80%EC%9B%90%20%EC%9E%91%EC%97%85%EB%A7%8C%20%EB%B0%9B%EA%B8%B0-yellow?style=for-the-badge" alt="특정 팀원 작업만 받기" height="34">
@@ -40,6 +42,8 @@ bai-shared/
 > bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 작업을 받고 싶은 사람은 (여기에 팀원 이름)야.
 > ```
 
+직접 명령어: `git clone --filter=blob:none --sparse https://github.com/trbb82349/bai-shared.git && cd bai-shared && git sparse-checkout set handoffs projects/<팀원GitHub아이디>`
+
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
 
 > 내 작업을 main에 PR로 올릴 때 (merge는 이후 직접 결정) (오른쪽 아래 복사 아이콘 클릭)
@@ -48,7 +52,7 @@ bai-shared/
 > bai-shared 저장소의 AGENTS.md를 읽고, 지금 이 프로젝트를 내 이름에 해당하는 GitHub 아이디 폴더 아래에 올리고 핸드오프 문서도 같이 써서 내 브랜치에 push하고 main으로 PR을 열어줘. 나는 (여기에 이름)이야.
 > ```
 
-명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → 본인 GitHub 아이디 브랜치로 전환 → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit → 본인 브랜치에 push → main으로 PR).
+직접 명령어: `git add . && git commit -m "메시지" && git push -u origin <내GitHub아이디> && gh pr create --base main --head <내GitHub아이디>` (프로젝트 폴더 복사·핸드오프 문서 작성은 별도)
 
 **왜 브랜치를 쓰나요?** `main`에 바로 push하지 않고 본인 GitHub 아이디 브랜치에서 작업한 뒤 PR을 열면, merge하기 전에 변경사항을 한눈에 확인할 수 있고 다른 사람 작업과 우연히 충돌할 일이 줄어듭니다. **PR을 언제 merge할지는 본인이 정하면 됩니다** — "내 작업 공유하기"는 PR을 여는 것까지만 하고, merge는 자동으로 실행되지 않습니다.
 
@@ -59,7 +63,9 @@ bai-shared/
 > ```text
 > bai-shared 저장소를 clone 받고, 내 이름에 해당하는 GitHub 아이디 브랜치로 전환(없으면 새로 만들어)해줘. 나는 (여기에 이름)이야.
 > ```
->
+
+직접 명령어: `git fetch origin && git switch <내GitHub아이디>` (없으면 `git switch -c <내GitHub아이디> origin/main`)
+
 > 이 단계는 선택 사항입니다 — 안 해도 위 "내 작업 공유하기"를 실행하면 알아서 본인 브랜치로 전환됩니다.
 
 ## 받은 내용은 어디에 저장되나요
