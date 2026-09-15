@@ -32,6 +32,14 @@ bai-shared/
 
 이미 한 번 받아본 적 있으면, AI가 알아서 **지난번 이후 새로 올라온 핸드오프 문서와 업데이트된 프로젝트만** 찾아서 알려줍니다 (이미 봤던 내용을 매번 다시 읽거나 설명하지 않음).
 
+<img src="https://img.shields.io/badge/%ED%8A%B9%EC%A0%95%20%ED%8C%80%EC%9B%90%20%EC%9E%91%EC%97%85%EB%A7%8C%20%EB%B0%9B%EA%B8%B0-yellow?style=for-the-badge" alt="특정 팀원 작업만 받기" height="34">
+
+> 전체 말고 특정 팀원 작업만 받고 싶을 때 (오른쪽 위 복사 아이콘 클릭)
+>
+> ```text
+> bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 받고 싶은 사람의 GitHub 아이디는 (여기에 아이디)야.
+> ```
+
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
 
 > 내 작업을 공유할 때 (오른쪽 위 복사 아이콘 클릭)
@@ -41,8 +49,6 @@ bai-shared/
 > ```
 
 명령어를 직접 치고 싶다면 [AGENTS.md](AGENTS.md)에 적힌 절차를 그대로 따라 하면 됩니다 (clone → `projects/내GitHub아이디/`에 프로젝트 폴더 추가 → `handoffs/template.md` 복사해서 채우기 → add/commit/push).
-
-**특정 팀원 작업만 받고 싶을 때**: 전체를 다 받지 않고 그 사람 폴더만 받을 수도 있습니다. AI에게 "OO 작업만 받고 싶어"라고 하면 [AGENTS.md](AGENTS.md)의 sparse-checkout 절차대로 그 사람 폴더만 골라 받아줍니다.
 
 ## 원칙
 
