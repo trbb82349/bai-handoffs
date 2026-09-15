@@ -40,6 +40,16 @@ bai-shared/
 > bai-shared 저장소의 AGENTS.md를 읽고, sparse-checkout으로 특정 팀원 작업만 골라서 받아줘. 작업을 받고 싶은 사람은 (여기에 팀원 이름)야.
 > ```
 
+<img src="https://img.shields.io/badge/%EB%82%B4%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0-blue?style=for-the-badge" alt="내 브랜치 연결하기" height="34">
+
+> 파일을 올리기 전에, 작업을 시작하면서 미리 내 GitHub 아이디 브랜치로 연결해두고 싶을 때 (오른쪽 위 복사 아이콘 클릭)
+>
+> ```text
+> bai-shared 저장소를 clone 받고, 내 이름에 해당하는 GitHub 아이디 브랜치로 전환(없으면 새로 만들어)해줘. 나는 (여기에 이름)이야.
+> ```
+>
+> 이 단계는 선택 사항입니다 — 안 해도 아래 "내 작업 공유하기"를 실행하면 알아서 본인 브랜치로 전환됩니다.
+
 <img src="https://img.shields.io/badge/%EB%82%B4%20%EC%9E%91%EC%97%85%20%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0-orange?style=for-the-badge" alt="내 작업 공유하기" height="34">
 
 > 내 작업을 공유할 때 (오른쪽 위 복사 아이콘 클릭)
